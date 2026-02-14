@@ -74,3 +74,8 @@ pytest_cache/
 # Misc
 # ===============================
 *.log
+
+# === ALLOW THIS SPECIFIC MODEL ===
+!experiments/run_001_hybrid_sota/
+!experiments/run_001_hybrid_sota/best_model.pth
+
